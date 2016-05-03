@@ -1,2 +1,15 @@
 // notes
 
+// notes
+
+ls = list dir
+git status = changes find
+
+//Publish
+git add --all
+git commit -m 'message'
+git push origin
+
+//Publish as page gh-pages
+git checkout -b gh-pages
+git push -u origin gh-pages:gh-pages

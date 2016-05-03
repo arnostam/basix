@@ -60,4 +60,9 @@ function get()
 	var itemtoget = localStorage.getItem('name');
 	$('#get').val(itemtoget);
 }
+function homeButton()
+{
+	
+	
+}
     

@@ -1,7 +1,4 @@
-a {
-  color:inherit;
-  text-decoration: none;
- }
+
 
 
 
@@ -26,8 +23,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d3d3d3', e
 
 }
 
-
-
 .mycontent{
   position: relative;
   top: 2.5em;
@@ -36,8 +31,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d3d3d3', e
   margin: 0 auto;
 }
 
-.mytbn{
+.my-btn{
+text-decoration: none;
+background-color: white;
+width: 200px;
+max-width: 90%;
+margin: 2px auto;
+padding: 0.5em;
+text-align:center;
+font-weight: normal;
+font-style: normal;
+text-transform: uppercase;
+border: solid #aaaaaa 1px;
+}
+/* unvisited link */
+.my-btn:link {
+    color: red;
+}
 
+/* visited link */
+.my-btn:visited {
+    color: green;
+}
+
+/* mouse over link */
+.my-btn:hover {
+    background-color: #eeeeee;
+}
+
+/* selected link */
+.my-btn:active {
+    color: darkorange;
 }
 
 img{

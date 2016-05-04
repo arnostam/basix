@@ -14,4 +14,8 @@ git push origin
 git checkout -b gh-pages
 git push -u origin gh-pages:gh-pages
 
-change
+//Change branch
+git checkout <branch>
+
+//git pull
+git pull to update current files

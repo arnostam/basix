@@ -1,13 +1,15 @@
-.wrapper{
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Open+Sans:400,600');
+
+.mx75prctwrapper{
 width: 75%;
 margin: auto;}
+
 
 .my-btn{
 text-decoration: none;
 background-color: rgba(200, 200, 200, 0.5);
 font-size: 1em;
 padding: 0.5em 0.5em 0.3em 0.5em ;
-width: 200px;
 text-align:center;
 font-style: normal;
 line-height: 1em;
